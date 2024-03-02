@@ -1,2 +1,2 @@
-# Sync_Intern_Task
+# Codeway 
 Weekly Task/Projects Done under Sync Internship

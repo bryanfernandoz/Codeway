@@ -1,0 +1,23 @@
+#include<LiquidCrystal.h>
+
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+
+LiquidCrystallcd(rs, en, d4, d5, d6, d7);
+
+void setup() {
+
+	lcd.begin(16, 2);
+	lcd.print("Hello, world");
+}
+
+void loop() {
+
+	lcd.setCursor(13,0);
+	lcd.print("OK");
+	lcd.setCursor(5,1);
+	for (int thischar = 0; thischar<10; thischar++) {
+		lcd.print(thischar);
+		delay(500);
+	{
+}
+		
